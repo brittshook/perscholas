@@ -1,0 +1,175 @@
+body {
+    padding-right: 30px;
+}
+
+body, main {
+    height: 100vh;
+    padding-bottom: 26px;
+    overflow-y: hidden;
+}
+
+body, #dashboard-container {
+    gap: 40px;
+}
+
+.sidebar {
+    padding-bottom: 26px;
+    width: 380px;
+}
+
+nav {
+    height: 100vh;
+    padding-top: 26px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+aside {
+    gap: 40px;
+    padding-top: 30px;
+}
+
+aside, #sub-nav {
+    padding: 15px 0;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+#nav-container {
+    gap: 30px;
+}
+
+#view-option-container {
+    border-bottom: 1px solid gainsboro;
+}
+
+#view-option-container, #board {
+    gap: 25px;
+}
+
+.view-option {
+    padding: 10px 5px;
+}
+
+#filter-container {
+    padding: 20px 0;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.nav-item i {
+    margin-right: 10px;
+}
+
+.fill {
+    width: 100%;
+}
+
+img.thumbnail, .circle-sm {
+    border-radius: 100%;
+}
+
+img.large {
+    width: 50px;
+    height: 50px;
+}
+
+img.small {
+    width: 24px;
+    height: 24px; 
+}
+
+#account-controls, #team, #search-and-notifiation {
+    gap: 20px;
+}
+
+#logo-name, .user, #quick-info, .tag, #filter-container, .active-user {
+    gap: 10px;
+}
+
+.user p, #sub-nav ol, #logo-name h1 {
+    margin: 0;
+}
+
+#search-field {
+    width: 200px;
+}
+
+#quick-info .card-body > p:first-of-type {
+    font-size: 45px;
+}
+
+#active-option {
+    border-bottom: 2px solid black;
+}
+
+.circle-sm {
+    width: 10px;
+    height: 10px;
+}
+
+.tag {
+    width: fit-content;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+#board > div {
+    gap: 15px;
+}
+
+.blue {
+    background-color: #0d6efd;
+}
+
+.red {
+    background-color: #dc3545;
+}
+
+.yellow {
+    background-color: #ffc107;
+}
+
+.orange {
+    background-color:  #fd7e14;
+}
+
+.translucent-blue {
+    background-color: #0d6efd33;
+}
+
+.translucent-red {
+    background-color: #dc354533;
+}
+
+.translucent-yellow {
+    background-color: #ffc10733;
+}
+
+.translucent-orange {
+    background-color:  #fd7e1433;
+}
+
+.badge {
+    height: fit-content;
+}
+
+#filter-container button, .status {
+    gap: 8px;
+}
+
+td {
+    height: 43.5px;
+}
+
+#dashboard-container, #project-view-container {
+    height: 100%;
+}
+
+#table-container {
+    height: 48%;
+}
