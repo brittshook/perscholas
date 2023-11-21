@@ -77,3 +77,6 @@ const lengthOfTripInHoursAt75MPH = totalTripDistance / 75;
 console.log(`${preface55MPH} the trip will take ${lengthOfTripInHoursAt55MPH.toFixed(2)} hours.`);
 console.log(`${preface60MPH} the trip will take ${lengthOfTripInHoursAt60MPH.toFixed(2)} hours.`);
 console.log(`${preface75MPH} the trip will take ${lengthOfTripInHoursAt75MPH.toFixed(2)} hours.`);
+
+// Which makes the most sense for the trip?
+console.log('The MPH that makes the most sense for the trip is 60 MPH as this speed keeps you within your fuel budget while getting you to your destination quicker than the alternative of 55 MPH. \n\ 75 MPH is not a reasonable alternative as the cost of fuel for that trip exceeds your budget.');
