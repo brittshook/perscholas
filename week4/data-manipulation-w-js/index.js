@@ -1,18 +1,21 @@
 // Math Problems
-const n1 = 1;
+const n1 = 10;
 const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
 const isSum50 = (n1 + n2 + n3 + n4) === 50;
 const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2);
-const isLessThanOrEqualTo25 = n1 <= 25 || n2 <= 25 |n3 <= 25 || n4 <= 25; 
+const isLessThanOrEqualTo25 = n1 <= 25 && n2 <= 25 && n3 <= 25 && n4 <= 25; 
 
 // Task: Check if all numbers are divisible by 5. Cache the result in a variable.
-const isDivisibleBy5 = (n1 + n2 + n3 + n4) % 5 === 0
+const isDivisibleBy5 = (n1 % 5 === 0) && (n2 % 5 === 0) && (n3 % 5 === 0) && (n4 % 5 === 0);
+console.log(`${isDivisibleBy5 ? 'All' : 'One or more'} numbers in the series ${isDivisibleBy5 ? 'are' : 'are not'} divisible by 5.`);
 
 // Check if the first number is larger than the last. Cache the result in a variable.
 const isFirstLargerThanLast = n1 > n4;
+console.log(`The first number in the series ${isFirstLargerThanLast ? 'is' : 'is not'} larger than the last number.`);
+
 
 /* Task: Accomplish the following arithmetic chain:
 - Subtract the first number from the second number.
@@ -20,11 +23,14 @@ const isFirstLargerThanLast = n1 > n4;
 - Find the remainder of dividing the result by the fourth number. */
 let newNum = n2 - n1;
 newNum = newNum * 3;
-newNum = newNum % n4; 
+newNum = newNum % n4;
+console.log(`The new resulting number from the arithmetic chain is ${newNum}.`);
+
 
 /* Task: Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in
 other logic comparisons. Rename the variable as appropriate. 
 - Change made above */
+console.log(`${isLessThanOrEqualTo25 ? 'All' : 'One or more'} numbers in the series ${isLessThanOrEqualTo25 ? 'are' : 'are not'} less than or equal to 25.`);
 
 
 // Practical Math
