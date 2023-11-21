@@ -22,7 +22,7 @@ console.log(`The first number in the series ${isFirstLargerThanLast ? 'is' : 'is
 - Multiply the result by the third number.
 - Find the remainder of dividing the result by the fourth number. */
 let newNum = n2 - n1;
-newNum = newNum * 3;
+newNum = newNum * n3;
 newNum = newNum % n4;
 console.log(`The new resulting number from the arithmetic chain is ${newNum}.`);
 
