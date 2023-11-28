@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --neutral: #FEF7F4;
+    --accent: #008080;
+}
+
+body, input, textarea, button {
+    font-family: Inter, sans-seif;
+}
+
+body {
+    background-color: var(--neutral, #fef7f4);
+    color: var(--neutral, #fef7f4);
+    font-weight: 500;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+section {
+    margin: 0 auto;
+    background-color: var(--accent, #008080);
+    border-radius: 15px;
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    padding: 40px 60px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 4px 4px 17px 3px rgba(0, 0, 0, 0.10);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+#header-w-line, form {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+fieldset {
+    border: 0;
+}
+
+#name-fields {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px
+}
+
+input, textarea, button {
+    border-radius: 4px;
+    border: none;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+#message {
+    height: 140px;
+}
+
+button {
+    background-color: var(--neutral, #fef7f4);
+    color: var(--accent, #008080);
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: #f0e3dd;
+
+}
